@@ -1,0 +1,28 @@
+.listOfFilms > img {
+  width: 200px;
+  height: 120px;
+  background-color: aliceblue;
+  margin-top: 0px;
+}
+.listOfFilms {
+  display: flex;
+  overflow-x: auto;
+}
+.sectionsContainer {
+  margin-top: 24px;
+}
+
+.listOfFilms {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.listOfFilms::-webkit-scrollbar {
+  display: none;
+}
+
+.sectionContainer > h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
